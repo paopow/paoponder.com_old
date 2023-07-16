@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.58183bcf.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.52f84670.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.5bb68449.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.5ae4157e.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.021f15c7.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.e6ca3548.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <h1 data-svelte-h="svelte-cqd48u">Paoponder</h1> <p data-svelte-h="svelte-1otawjk">PaoPonder is under contruction. Please visit again in a week or so to see the update.</p> 
+			
+			<script>
+				{
+					__sveltekit_ohdcrg = {
+						assets: "/paoponder.com",
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [{"type":"data","data":null,"uses":{}},null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.58183bcf.js"),
+						import("./_app/immutable/entry/app.5bb68449.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
